@@ -1,0 +1,22 @@
+button.standard-button {
+background-color: var(--primary);
+border: 2px solid var(--secondary);
+border-radius: 8px;
+box-shadow: 2px 2px 3px 0px var(--black);
+transition: 0.25s cubic-bezier(1, 0.13, 0.33, 1.32) transform;
+min-height: 36px;
+}
+
+button.standard-button:hover {
+    transform: scale(105%);
+}
+
+button.standard-button:active {
+    transform: scale(95%);
+}
+
+button.standard-button a {
+    color: var(--white);
+    text-decoration: none;
+    padding: 8px;
+}

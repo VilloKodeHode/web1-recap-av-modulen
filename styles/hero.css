@@ -1,0 +1,36 @@
+section.hero {
+min-height: calc(100vh - 80px);
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+gap: 36px;
+background-image: url(../public/logo2.png);
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+section.hero div.hero-text {
+display: grid;
+gap: 16px;
+background-color: var(--greyTransparent);
+padding: 18px;
+margin: 18px;
+border-radius: 8px;
+}
+
+section.hero div.hero-text h1 {
+font-size: 2.8rem;
+color: var(--secondary);
+text-shadow: 1px 1px 0px var(--black);
+}
+
+/* .hero-h1tag {
+    
+} */
+
+
+section.hero div.hero-text p {
+font-size: 1.5rem;
+}
+

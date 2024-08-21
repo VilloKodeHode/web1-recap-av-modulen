@@ -1,0 +1,27 @@
+header {
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding-inline: 64px;
+
+background-color: var(--primary);
+height: 80px;
+}
+
+header figure {
+height: 70px;
+}
+
+header figure img {
+ height: 100%;   
+}
+
+header nav a {
+    color: var(--white);
+    text-decoration: none;
+    transition: 0.3s ease transform;
+}
+
+header nav a:hover {
+    transform: scale(105%)
+  }

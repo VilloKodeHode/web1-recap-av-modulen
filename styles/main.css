@@ -1,0 +1,26 @@
+@import "header.css";
+@import "hero.css";
+@import "button.css";
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main {
+    /* margin-inline: 36px; */
+}
+
+:root {
+    --primary: #4d4bbd;
+    --secondary: #9e9efc;
+    --tertiery: #4e516e;
+    --quertiery: ;
+    --accent: ;
+
+    --black: #0e0e0e;
+    --white: #fdfdff;
+    --grey: #35363f;
+    --greyTransparent: #35363f5a;
+}
